@@ -16,6 +16,7 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
+define('REVISR_GIT_PATH', 'C:\Program_Files\Git\cmd\git.exe'); // Added by Revisr
 define('DB_NAME', 'wordpress');
 
 /** Имя пользователя MySQL */
@@ -78,7 +79,7 @@ define('WPLANG', 'ru_RU');
  * Настоятельно рекомендуется, чтобы разработчики плагинов и тем использовали WP_DEBUG
  * в своём рабочем окружении.
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', FALSE);
 
 /* Это всё, дальше не редактируем. Успехов! */
 
